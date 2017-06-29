@@ -1,1 +1,1 @@
-alert("Hello from your chrome extensions!");
+console.log("Hey!");
