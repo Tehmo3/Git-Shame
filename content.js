@@ -58,7 +58,7 @@ function updateUi(username) {
 
 
     var timeElement = document.getElementById('time');
-    timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Hours, " + seconds + " Seconds.";
+    timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Minutes, " + seconds + " Seconds.";
     var interval = setInterval(function() {
       seconds++;
       if (seconds == 60) {
