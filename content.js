@@ -59,5 +59,21 @@ function updateUi(username) {
 
     var timeElement = document.getElementById('time');
     timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Hours, " + seconds + " Seconds.";
+    var interval = setInterval(function() {
+      seconds++;
+      if (seconds == 60) {
+        minutes++;
+        seconds = 0;
+      }
+      if (minutes == 60) {
+        hours++;
+        minutes = 0;
+      }
+      if (hours == 24) {
+        days++;
+        hours = 0;
+      }
+      timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Hours, " + seconds + " Seconds.";
+    }, 1000)
   })
 }
