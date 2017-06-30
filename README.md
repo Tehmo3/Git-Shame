@@ -16,7 +16,3 @@ click "Load Unpacked Extension"
 Navigate to where this repo was downloaded
 The extension should now load into your browser
 ```
-
-```
-This is a test
-```
