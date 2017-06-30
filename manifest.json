@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Github-Shame",
+  "name": "Git Shame",
   "version": "1.0.0",
   "browser_action": {
     "default_icon": "icon.png",
