@@ -1,0 +1,10 @@
+body {
+  width: 25em;
+}
+
+#Data {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  text-align: center;
+}
