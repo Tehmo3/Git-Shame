@@ -10,6 +10,13 @@ function httpGetAsync(theUrl, callback)
     xmlHttp.send(null);
 }
 
+var reload = document.getElementById("newUsername");
+reload.onclick = function() {
+  chrome.storage.sync.remove("githubUser", function(items) {
+    window.location.reload(true);
+  });
+}
+
 
 chrome.storage.sync.get({githubUser: 'default'}, function(obj){
     if (obj.githubUser === 'default') {

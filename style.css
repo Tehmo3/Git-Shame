@@ -8,3 +8,10 @@ body {
   width: 20em;
   text-align: center;
 }
+
+#newUsername {
+  width: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
