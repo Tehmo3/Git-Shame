@@ -8,9 +8,11 @@ to a (public) github repository. Good for people still learning (like me!) to ke
 motivation up!
 
 Installation:
+```
 Download this repo using the green 'clone or download' button in the top right.
 Navigate to chrome://extensions
 Tick the 'Developer Mode' checkbox
 click "Load Unpacked Extension"
 Navigate to where this repo was downloaded
 The extension should now load into your browser
+```
