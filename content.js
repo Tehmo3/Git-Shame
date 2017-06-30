@@ -73,7 +73,7 @@ function updateUi(username) {
         days++;
         hours = 0;
       }
-      timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Hours, " + seconds + " Seconds.";
+      timeElement.innerHTML = days + " Days, " + hours + " Hours, " + minutes + " Minutes, " + seconds + " Seconds.";
     }, 1000)
   })
 }
